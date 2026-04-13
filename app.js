@@ -10,32 +10,46 @@ function initDB() {
   if (!DB.get('initialized')) {
     const users = [
       {
-        id: 'u1', nip: '198501012010011001', nama: 'Administrator', golongan: 'PNS',
-        pangkat: 'IIIc', jabatan: 'Administrator Sistem', unit: 'Bagian TI',
-        email: 'admin@instansi.go.id', hp: '08111111111',
-        username: 'admin', password: 'admin123', role: 'admin', status: 'Aktif',
+        id: 'u1', nip: '123456789', nama: 'Admin', golongan: 'PPPK',
+        pangkat: 'IX', jabatan: 'Penata Kelola Pemilu', unit: 'KPU Kab. Sarolangun',
+        email: 'dederikysatrya@gmail.com', hp: '082307731105',
+        username: 'Admin', password: 'Astaga17', role: 'admin', status: 'Aktif',
         avatar: 'https://ui-avatars.com/api/?name=Admin&background=3b5bdb&color=fff&size=80'
       },
       {
-        id: 'u2', nip: '199001012015032001', nama: 'Sri Tutut', golongan: 'PNS',
-        pangkat: 'IIIa', jabatan: 'Pranata Komputer', unit: 'Bagian TI',
-        email: 'sritutut@instansi.go.id', hp: '08222222222',
-        username: 'pegawai', password: 'pegawai123', role: 'pegawai', status: 'Aktif',
+        id: 'u2', nip: '197511102009101001', nama: 'Aswal', golongan: 'PNS',
+        pangkat: 'IVa', jabatan: 'Sekretaris', unit: 'KPU Kab. Sarolangun',
+        email: '', hp: '',
+        username: 'Aswal', password: 'Aswal', role: 'pegawai', status: 'Aktif',
         avatar: 'https://ui-avatars.com/api/?name=Sri+Tutut&background=e03131&color=fff&size=80'
       },
       {
-        id: 'u3', nip: '199503152019081001', nama: 'Budi Santoso', golongan: 'PPPK',
-        pangkat: 'IIIb', jabatan: 'Analis Kebijakan', unit: 'Bagian Perencanaan',
-        email: 'budi@instansi.go.id', hp: '08333333333',
-        username: 'budi', password: 'budi123', role: 'pegawai', status: 'Aktif',
-        avatar: 'https://ui-avatars.com/api/?name=Budi+Santoso&background=2f9e44&color=fff&size=80'
+        id: 'u3', nip: '197410022006042008', nama: 'Mutiyah Pitri', golongan: 'PNS',
+        pangkat: 'IIId', jabatan: 'Kasubbag Hukum dan SDM', unit: 'KPU Kab. Sarolangun',
+        email: '', hp: '',
+        username: 'Mutiyah', password: 'Mutiyah', role: 'pegawai', status: 'Aktif',
+        avatar: 'https://ui-avatars.com/api/?name=Sri+Tutut&background=e03131&color=fff&size=80'
       },
       {
-        id: 'u4', nip: '198808202012042002', nama: 'Dewi Rahayu', golongan: 'PNS',
-        pangkat: 'IIIb', jabatan: 'Pengelola Keuangan', unit: 'Bagian Keuangan',
-        email: 'dewi@instansi.go.id', hp: '08444444444',
-        username: 'dewi', password: 'dewi123', role: 'pegawai', status: 'Aktif',
-        avatar: 'https://ui-avatars.com/api/?name=Dewi+Rahayu&background=7048e8&color=fff&size=80'
+        id: 'u4', nip: '198312132010121002', nama: 'Wahyu Roma Primadona', golongan: 'PNS',
+        pangkat: 'IIId', jabatan: 'Kasubbag KUL', unit: 'KPU Kab. Sarolangun',
+        email: '', hp: '',
+        username: 'Wahyu', password: 'Wahyu', role: 'pegawai', status: 'Aktif',
+        avatar: 'https://ui-avatars.com/api/?name=Sri+Tutut&background=e03131&color=fff&size=80'
+      },
+      {
+        id: 'u5', nip: '198802062010122003', nama: 'Ria Dwijayanti.GM', golongan: 'PNS',
+        pangkat: 'IIId', jabatan: 'Kasubbag Rendatin', unit: 'KPU Kab. Sarolangun',
+        email: '', hp: '',
+        username: 'Riri', password: 'Riri', role: 'pegawai', status: 'Aktif',
+        avatar: 'https://ui-avatars.com/api/?name=Sri+Tutut&background=e03131&color=fff&size=80'
+      },
+      {
+        id: 'u6', nip: '1984062912008011002', nama: 'Mujiono', golongan: 'PNS',
+        pangkat: 'IIIc', jabatan: 'Kasubbag Teknis dan Parhubmas', unit: 'KPU Kab. Sarolangun',
+        email: '', hp: '',
+        username: 'Mujiono', password: 'Mujiono', role: 'pegawai', status: 'Aktif',
+        avatar: 'https://ui-avatars.com/api/?name=Sri+Tutut&background=e03131&color=fff&size=80'
       }
     ];
     DB.set('users', users);
