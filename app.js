@@ -20,7 +20,7 @@ function initDB() {
         id: 'u2', nip: '197511102009101001', nama: 'Aswal', golongan: 'PNS',
         pangkat: 'IVa', jabatan: 'Sekretaris', unit: 'KPU Kab. Sarolangun',
         email: '', hp: '',
-        username: 'Aswal', password: 'Aswal', role: 'pegawai', status: 'Aktif',
+        username: 'Aswal', password: 'Aswal123', role: 'pegawai', status: 'Aktif',
         avatar: 'https://ui-avatars.com/api/?name=Aswal&background=e03131&color=fff&size=80'
       },
       {
