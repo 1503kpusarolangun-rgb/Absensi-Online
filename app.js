@@ -726,7 +726,7 @@ function gantiPassword() {
   const konfirm = document.getElementById('pw-konfirm').value;
   const msg = document.getElementById('pw-msg');
   if (lama !== currentUser.password) { showMsg(msg, '❌ Password lama salah', 'error'); return; }
-  if (baru.length < 6) { showMsg(msg, '❌ Password baru minimal 6 karakter', 'error'); return; }
+  if (baru.length < 6) { showMsg(msg, '❌ Password baru minimal 4 karakter', 'error'); return; }
   if (baru !== konfirm) { showMsg(msg, '❌ Konfirmasi password tidak cocok', 'error'); return; }
   const users = DB.get('users') || [];
   const idx = users.findIndex(u => u.id === currentUser.id);
